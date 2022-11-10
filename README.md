@@ -40,6 +40,10 @@
 
 ![Authentication](static/assets/oc_10_endpoints.jpg)
 
+## Project Overview
+![Overview](static/assets/oc_project_10_drf.gif)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,6 +131,14 @@
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+## API Documentation
+- Postman: 
+- Swagger: http://127.0.0.1:8000/api/docs/#/
+![Swagger](static/assets/oc_project_10_swagger.gif)
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
