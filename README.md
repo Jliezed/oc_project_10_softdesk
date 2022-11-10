@@ -46,7 +46,7 @@
 ![Access](static/assets/oc_project_10_access.jpg)
 #### Example
 PUT : /projects/1/
-- Author of the project can update the project 1
+- Author of the project 1 can update it
 - Contributor of the project 1 can read only detail
 - Other user of the API (not author or contributor) of project 1 can't access detail information of project 1
 
