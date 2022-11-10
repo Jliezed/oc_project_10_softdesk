@@ -36,12 +36,20 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Endpoints Summary
-
-![Authentication](static/assets/oc_10_endpoints.jpg)
-
 ## Project Overview
 ![Overview](static/assets/oc_project_10_drf.gif)
+
+## Endpoints Summary
+![Authentication](static/assets/oc_10_endpoints.jpg)
+
+## Access Specification
+![Access](static/assets/oc_project_10_access.jpg)
+#### Example
+PUT : /projects/{1/
+- Author of the project can update the project 1
+- Contributor of the project 1 can read only detail
+- Other user of the API (not author or contributor) of project 1 can't access detail information of project 1
+
 
 
 
