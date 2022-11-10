@@ -59,7 +59,6 @@ class Issues(models.Model):
         ("to do", "to do"),
         ("in progress", "in progress"),
         ("done", "done"),
-
     )
 
     title = models.CharField(max_length=250, unique=True)
@@ -80,7 +79,7 @@ class Issues(models.Model):
 
 
 class Comments(models.Model):
-    """ Comments linked to an issues """
+    """ Comments linked to an issue """
 
     description = models.CharField(max_length=250)
     author_user = models.ForeignKey(to=settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING)

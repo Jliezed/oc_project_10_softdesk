@@ -26,14 +26,18 @@ from user.views import signup_page
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+
     # ../login/ & ../logout
     path('api/auth/', include('rest_framework.urls')),
     path('api/signup/', signup_page, name="signup"),
+
     # Token paths
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
+    # Api
     path('api/', include('appsoftdesk.urls')),
+
     # Documentation paths
     path('api/schema/', SpectacularAPIView.as_view(), name='api-schema'),
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='api-schema'),
