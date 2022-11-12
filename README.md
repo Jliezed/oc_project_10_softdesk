@@ -140,7 +140,7 @@ PUT : /projects/1/
 
 
 ## API Documentation
-- Postman: 
+- Postman: https://documenter.getpostman.com/view/21205949/2s8YCboFSd
 - Swagger: http://127.0.0.1:8000/api/docs/#/
 ![Swagger](static/assets/oc_project_10_swagger.gif)
 
