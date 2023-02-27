@@ -12,11 +12,13 @@
 [![rest-api][rest-api-shield]][rest-api-url]
 [![django-rest-framework][django-rest-framework-shield]][django-rest-framework-url]
 [![endpoints][endpoints-shield]][endpoints-url]
+[![permissions][permissions-shield]][permissions-url]
 [![postman][postman-shield]][postman-url]
 [![swagger][swagger-shield]][swagger-url]
 [![json-web-token][json-web-token-shield]][json-web-token-url]
 [![cors][cors-shield]][cors-url]
 [![owasp][owasp-shield]][owasp-url]
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -28,7 +30,6 @@
    SoftDesk is an API for reporting and tracking technical issues. 
     <br /></p>
 </div>
-
 <img src="https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
 <a href="https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"><small>By Douglas Lopes</small></a>
 
@@ -160,13 +161,13 @@ PUT : /projects/1/
 [oc-project-url]: https://openclassrooms.com/fr/paths/518-developpeur-dapplication-python
 
 [rest-api-shield]: https://img.shields.io/badge/-REST%20API-blue?style=for-the-badge
-[rest-api-url]: https://fr.wikipedia.org/wiki/Representational_state_transfer
+[rest-api-url]: https://en.wikipedia.org/wiki/Representational_state_transfer
 
 [django-rest-framework-shield]: https://img.shields.io/badge/-Django%20Rest%20Framework-blue?style=for-the-badge
 [django-rest-framework-url]: https://www.django-rest-framework.org/
 
 [endpoints-shield]: https://img.shields.io/badge/-ENDPOINTS-blue?style=for-the-badge
-[endpoints-url]: https://fr.wikipedia.org/wiki/Point_de_terminaison_(informatique)
+[endpoints-url]: https://kinsta.com/knowledgebase/api-endpoint/
 
 [postman-shield]: https://img.shields.io/badge/-POSTMAN-blue?style=for-the-badge
 [postman-url]: https://www.postman.com/
@@ -182,3 +183,6 @@ PUT : /projects/1/
 
 [owasp-shield]: https://img.shields.io/badge/-OWASP-blue?style=for-the-badge
 [owasp-url]: https://owasp.org/www-project-top-ten/
+
+[permissions-shield]: https://img.shields.io/badge/-PERMISSIONS-blue?style=for-the-badge
+[permissions-url]: https://www.django-rest-framework.org/api-guide/permissions/
