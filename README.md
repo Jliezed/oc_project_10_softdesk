@@ -8,29 +8,29 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
+[![oc][oc-project-shield]][oc-project-url]
+[![rest-api][rest-api-shield]][rest-api-url]
+[![django-rest-framework][django-rest-framework-shield]][django-rest-framework-url]
+[![endpoints][endpoints-shield]][endpoints-url]
+[![postman][postman-shield]][postman-url]
+[![swagger][swagger-shield]][swagger-url]
+[![json-web-token][json-web-token-shield]][json-web-token-url]
+[![cors][cors-shield]][cors-url]
+[![owasp][owasp-shield]][owasp-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
-<h3 align="center">OC - PROJECT N°10 - RESTful API Using Django Rest Framework</h3>
+<h1 align="center">OC - PROJECT N°10 - RESTful API Using Django Rest Framework</h1>
 
   <p align="center">
    SoftDesk is an API for reporting and tracking technical issues. 
-    <br />
-    <a href="https://github.com/Jliezed/oc_project_9_litreview">View Demo</a>
-    ·
-    <a href="https://github.com/Jliezed/oc_project_9_litreview/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Jliezed/oc_project_9_litreview/issues">Request Feature</a>
-  </p>
+    <br /></p>
 </div>
+
+<img src="https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+<a href="https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"><small>By Douglas Lopes</small></a>
 
 
 
@@ -61,6 +61,7 @@ PUT : /projects/1/
 
 * Python 
 * Django Rest Framework
+* JSON Web Token
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -150,32 +151,34 @@ PUT : /projects/1/
 
 
 
-<!-- CONTACT -->
-## Contact
-
-Jliezed
-
-Project Link: [https://github.com/Jliezed/oc_project_10_softdesk.git](https://github.com/Jliezed/oc_project_10_softdesk.git)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Jliezed/oc_project_10_softdesk.svg?style=for-the-badge
-[contributors-url]: https://github.com/Jliezed/oc_project_10_softdesk/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Jliezed/oc_project_10_softdesk.svg?style=for-the-badge
-[forks-url]: https://github.com/Jliezed/oc_project_10_softdesk/network/members
-[stars-shield]: https://img.shields.io/github/stars/Jliezed/oc_project_10_softdesk.svg?style=for-the-badge
-[stars-url]: https://github.com/Jliezed/oc_project_10_softdesk/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Jliezed/oc_project_10_softdesk.svg?style=for-the-badge
-[issues-url]: https://github.com/Jliezed/oc_project_10_softdesk/issues
-[license-shield]: https://img.shields.io/github/license/Jliezed/oc_project_10_softdesk.svg?style=for-the-badge
-[license-url]: https://github.com/Jliezed/oc_project_10_softdesk/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[oc-project-shield]: https://img.shields.io/badge/OPENCLASSROOMS-PROJECT-blueviolet?style=for-the-badge
+[oc-project-url]: https://openclassrooms.com/fr/paths/518-developpeur-dapplication-python
+
+[rest-api-shield]: https://img.shields.io/badge/-REST%20API-blue?style=for-the-badge
+[rest-api-url]: https://fr.wikipedia.org/wiki/Representational_state_transfer
+
+[django-rest-framework-shield]: https://img.shields.io/badge/-Django%20Rest%20Framework-blue?style=for-the-badge
+[django-rest-framework-url]: https://www.django-rest-framework.org/
+
+[endpoints-shield]: https://img.shields.io/badge/-ENDPOINTS-blue?style=for-the-badge
+[endpoints-url]: https://fr.wikipedia.org/wiki/Point_de_terminaison_(informatique)
+
+[postman-shield]: https://img.shields.io/badge/-POSTMAN-blue?style=for-the-badge
+[postman-url]: https://www.postman.com/
+
+[swagger-shield]: https://img.shields.io/badge/-SWAGGER-blue?style=for-the-badge
+[swagger-url]: https://swagger.io/
+
+[json-web-token-shield]: https://img.shields.io/badge/-JSON%20WEB%20TOKEN-blue?style=for-the-badge
+[json-web-token-url]: https://jwt.io/
+
+[cors-shield]: https://img.shields.io/badge/-CORS-blue?style=for-the-badge
+[cors-url]: https://developer.mozilla.org/fr/docs/Web/HTTP/CORS
+
+[owasp-shield]: https://img.shields.io/badge/-OWASP-blue?style=for-the-badge
+[owasp-url]: https://owasp.org/www-project-top-ten/
